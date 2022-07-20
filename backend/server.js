@@ -8,6 +8,7 @@ const workoutRoutes = require('./routes/workouts')
 const app = express()
 
 // middleware
+// to look at req.body
 app.use(express.json())
 
 app.use((req, res, next)=>{
