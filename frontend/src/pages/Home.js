@@ -19,7 +19,7 @@ const Home = () =>{
 
     fetchWorkouts()
     // the empty array makes it so that the useEffect only renders once
-  }, [])
+  }, [dispatch])
   return(
     <div className="home">
       <div className='workouts'>
