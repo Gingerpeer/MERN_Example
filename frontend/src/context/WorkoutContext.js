@@ -1,5 +1,5 @@
 import { createContext, useReducer } from "react";
-
+// this is basically to create a global state and ensure that all data is visible immediately after creation
 export const WorkoutContext = createContext()
 
 export const workoutReducer = (state,action) =>{
