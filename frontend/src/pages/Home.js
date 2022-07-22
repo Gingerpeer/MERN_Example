@@ -5,6 +5,7 @@ import WorkoutDetails from '../components/WorkoutDetails'
 import WorkoutForm from '../components/WorkoutForm';
 
 const Home = () =>{
+  // context instead of state
   const { workouts, dispatch } = useWorkoutContext()
 
   useEffect(()=>{
